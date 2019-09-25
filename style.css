@@ -7,7 +7,7 @@
   padding-bottom: 100px;
 }
 
-thead tr {
+thead {
   position: sticky; 
   position: -webkit-sticky; /* safari */
   top: 0;
