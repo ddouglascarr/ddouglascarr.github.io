@@ -22,14 +22,14 @@ thead tr th:first-child {
   background: white;
 }
 
-tbody tr td:first-child {
+tbody tr th {
   position: sticky; 
   position: -webkit-sticky; /* safari */
   left: 0;
   z-index: 5;
 }
 
-tbody tr td {
+tbody tr td, tbody tr th {
   min-width: 300px;
   background: white;
 }
