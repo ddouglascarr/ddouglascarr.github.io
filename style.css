@@ -19,12 +19,14 @@ thead tr th:first-child {
   position: -webkit-sticky; /* safari */
   left: 0;
   background: white;
+  z-index: 10
 }
 
 tbody tr td:first-child {
   position: sticky; 
   position: -webkit-sticky; /* safari */
   left: 0;
+  z-index: 5;
 }
 
 tbody tr td {
