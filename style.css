@@ -1,0 +1,33 @@
+.my-heading {
+  color: blue
+}
+
+.space-waster {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+thead tr th {
+  position: sticky; 
+  position: -webkit-sticky; /* safari */
+  top: 0;
+  background: white;
+}
+
+thead tr th:first-child {
+  position: sticky; 
+  position: -webkit-sticky; /* safari */
+  left: 0;
+  background: white;
+}
+
+tbody tr td:first-child {
+  position: sticky; 
+  position: -webkit-sticky; /* safari */
+  left: 0;
+}
+
+tbody tr td {
+  min-width: 300px;
+  background: white;
+}
